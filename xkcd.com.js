@@ -1,6 +1,6 @@
 // eventually make our own element and put immediately after the image, like
 // on m.xkcd.com, but this still looks pretty good.
-$("#transcript")[0].innerText = $("img")[1].title;
+$("#transcript")[0].innerText = $("div.menuCont ~ img")[0].title;
 $("#transcript").css({
   'display': 'block',
   'background': '#FFF9BD',
